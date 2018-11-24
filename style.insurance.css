@@ -190,7 +190,7 @@ table.position
 .art-sheet-tr, .art-sheet-tl, .art-sheet-br, .art-sheet-bl, .art-sheet-tc, .art-sheet-bc,.art-sheet-cr, .art-sheet-cl
 {
   position: absolute;
-  z-index: -1;
+  z-index: -10;
 }
 
 .art-sheet-tr, .art-sheet-tl, .art-sheet-br, .art-sheet-bl
@@ -849,7 +849,7 @@ input, select, textarea, select
 {
   position: relative;
   z-index: 1;
-  padding: 5px;
+  padding: 1px;
 }
 
 .art-vmenublock-tr, .art-vmenublock-tl, .art-vmenublock-br, .art-vmenublock-bl, .art-vmenublock-tc, .art-vmenublock-bc,.art-vmenublock-cr, .art-vmenublock-cl
@@ -937,10 +937,10 @@ input, select, textarea, select
 {
   position: absolute;
   z-index: -1;
-  top: 13px;
-  left: 13px;
-  right: 13px;
-  bottom: 13px;
+  top: 33px;
+  left: 33px;
+  right: 33px;
+  bottom: 33px;
   background-color: #D0E3E7;
 }
 
@@ -1625,7 +1625,7 @@ a img
 
 .art-article table, table.art-article .art-article tr, .art-article th, .art-article td
 {
-  background-color: Transparent;
+  background-color: transparent;
 }
 
 .art-article th, .art-article td
@@ -1633,7 +1633,7 @@ a img
   padding: 2px;
   border: solid 1px #7BB0BC;
   vertical-align: top;
-  text-align: left;
+  text-align: center;
 }
 
 .art-article th
@@ -1768,17 +1768,6 @@ blockquote p,
 
 }
 
-blockquote,
-.art-postcontent blockquote
-{
-  border: solid 1px #9DC5CD;
-  margin: 10px 10px 10px 50px;
-  padding: 5px 5px 5px 28px;
-  background-color: #CCE1E5;
-  background-image: url('images/postquote.png');
-  background-position: left top;
-  background-repeat: no-repeat;
-}
 
 /* end PostQuote */
 
@@ -1900,7 +1889,8 @@ blockquote,
 /* begin LayoutCell, sidebar1 */
 .art-content-layout .art-sidebar1
 {
-  width: 25%;
+  width: 20
+  %;
 }
 /* end LayoutCell, sidebar1 */
 
